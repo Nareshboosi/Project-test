@@ -409,13 +409,13 @@ width: 500px;
     }
     .project-content{
         width: 5.5rem !important;
-        font-size: 0.5rem;
+        
         /* border: 5px solid red; */
         margin-left: 0.3rem !important;
         
     }
     .ptext1{
-        font-size: 0.5rem;
+        font-size: 0.7rem;
         
     }
   }
