@@ -408,14 +408,15 @@ width: 500px;
          height: 4rem;
     }
     .project-content{
-        width: 5.5rem !important;
+        width: 6.5rem !important;
         
         /* border: 5px solid red; */
-        margin-left: 0.3rem !important;
+        margin-left: 0.5rem !important;
+
         
     }
     .ptext1{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         
     }
   }
