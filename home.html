@@ -10,7 +10,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-<div class="nav1 ">
+<div class="nav1 text-center " style="padding-top: 2rem;">
 <div class=" n1item1 n1">
 <i class="bi bi-geo-alt-fill "></i>
 <p>23 Ranking Street, new York</p>
@@ -25,77 +25,74 @@ Note:we help you to grow your Business
 </marquee>
 </div>
 
-<div class="n1item4 ">
+<div class="n1item4 " style="margin-top: -1.3rem;">
 <div class="n13"> <i class="fab fa-facebook-f text-primary"></i></div>
 <div class="n13"><i class="fab fa-twitter text-primary"></i></i></div>
 <div class="n13"><i class="fab fa-instagram text-primary"></i></div>
 <div class="n13"><i class="fab fa-linkedin-in text-primary"></i></div>
-</div>item3
+</div>
 
 
 </div>
-<div class="nav2">
-<h1 class="heading">High <span class="span">Tech</span></h1>
-<div class="n2nav1">
-<div class="n2item-1 n21">Home</div>
-<div class="n2item-2 n21">About</div>
-<div class="n2item-3 n21">Services</div>
-<div class="n2item-4 n21">Projects</div>
-<div class="n2item-5 n21">
+<nav class="navbar" >
+    <!-- Logo -->
+    <h1 class="heading" style="margin-left: 2rem;">High <span style="color:#26D48C">Tech</span></h1>
 
-        <label for="page">Pages</label>
-    <i class="bi bi-caret-down-fill" ></i>
-    <input type="checkbox" id="page" name="page">
-    <select name="" id="" class="pageitems">
-        <option value="">Our Blog</option>
-        <option value="">Our Team</option>
-        <option value="">Tesimonial</option>
-        <option value=""> 404 page</option>
-    </select>
+    <!-- Hamburger Menu Toggle -->
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
 
-  
-</div>  
-    
- 
+    <ul class="nav-items" style="margin-right: 1.5rem;">
+      <li><a href="./home.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./services.html">Services</a></li>
+      <li><a href="./project.html">Projects</a></li>
 
+      
+      <li>
+        <input type="checkbox" id="pages-toggle" />
+        <label for="pages-toggle">Pages ⬇</label>
+        <div class="page-items" style="color: black;">
+          <a href="./blog.html">Our Blog</a>
+          <a href="./team.html">Our Team</a>
+          <a href="./testimonial.html">Testimonial</a>
+           <a href="#">404 Page</a>
+        </div>
+      </li>
 
-    
-<div class="n2item-6 n21">Contact</div>
-</div>
-<div class="listicon">
-<i class="bi bi-list"></i>
-</div>
-<div class="n2nav2">
-<i class="fa fa-phone-alt text-white fa-2x n2i"></i>
-<div class="n2items">
-<span>have Any Questions?</span>
-<span class="span">Call:+0123 456 789</span>
-</div>
-<i class="bi bi-search text-white fa-2x n2i"></i>
-</div>
+      <li><a href="./contact.html">Contact</a></li>
 
-</div>
+      <div class="n2nav2">
+        <i class="fa fa-phone-alt text-white fa-lg"></i>
+        <div class="n2items">
+          <div>Have Any Questions?</div>
+          <div class="span">Call: +0123 456 789</div>
+        </div>
+        <i class="bi bi-search text-white fs-4" style="font-size: 2rem !important;"></i>
+      </div>
+    </ul>
+  </nav>
 
  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
- <div class=" m-20">
-     <div id="carouselExample" class="carousel slide" data-bs-slide="carousel">
+ <div class="m-20">
+     <div id="carouselExample" class="carousel slide" data-bs-slide="carousel" style="width: 100%;padding: 0px;">
   <div class="carousel-inner">
     
-    <div class="carousel-item active position-relative">
+    <div class="carousel-item active position-relative " style="width: 100%;" >
       <img src="https://themewagon.github.io/HighTechIT/img/carousel-1.jpg" class="d-block w-100" alt="Slide 1">
         <div class="black-overlay"></div>
       <!-- Overlay content -->
       <div class="carousel-caption d-flex flex-column justify-content-center align-items-center text-center">
-        <h3 class=" fw-bold" style="font-size: 1.5vw;  color: #26D48C; ">Best IT Solutions</h3>
+        <h3 class=" fw-bold" style="font-size: 1.5vw;  color: #26D48C; animation-name: head;animation-duration: 1.5s;animation-iteration-count: 1;">Best IT Solutions</h3>
 
-        <h1 class="text-white">An Innovative IT solution<br><span>Agency</span></h1>
+        <h1 class="text-white" style="animation-name: con;animation-duration: 1.5s;animation-iteration-count: 1;">An Innovative IT solution<br><span>Agency</span></h1>
 
-        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae similique suscipit quibusdam voluptates fugit officia pariatur.</p>
+        <p class="text-white" style="animation-name: head;animation-duration: 1.5s;animation-iteration-count: 1;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae similique suscipit quibusdam voluptates fugit officia pariatur.</p>
 
-        <div class="button-group mt-3">
-          <button class="btn btn-read" >Read More</button>
-          <button class="btn btn-contact" >Contact Us</button>
+        <div class="button-group mt-3" >
+          <button class="btn btn-read" style=" animation-name:btn;animation-duration: 2s;animation-iteration-count: 1;" >Read More</button>
+          <button class="btn btn-contact" style="animation-name: buttons;animation-duration: 2s;animation-iteration-count: 1;" >Contact Us</button>
         </div>
       </div>
     </div>
@@ -108,9 +105,9 @@ Note:we help you to grow your Business
       <div class="carousel-caption d-flex flex-column justify-content-center align-items-center text-center">
         <h3 class=" fw-bold" style="font-size: 1.5vw;  color: #26D48C; ">Best IT Solutions</h3>
 
-        <h1 class="text-white">Quality Digital Services You<br><span>Really Need</span></h1>
+        <h1 class="text-white" style="animation-name: con;animation-duration: 1.5s;animation-iteration-count: 1;">Quality Digital Services You<br><span>Really Need</span></h1>
 
-        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae similique suscipit quibusdam voluptates fugit officia pariatur.</p>
+        <p class="text-white" style="animation-name: head;animation-duration: 1.5s;animation-iteration-count: 1;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae similique suscipit quibusdam voluptates fugit officia pariatur.</p>
 
         <div class="button-group mt-3">
           <button class="btn btn-read" style="background-color: #26D48C; border-radius: 9rem;padding: 1rem 2rem; " >Read More</button>
@@ -132,11 +129,11 @@ Note:we help you to grow your Business
   </button>
 </div>
  </div>
- <div class="container-fluid  py-5 " style="background-color: #26D48C;" >
-            <div class="container ">
+ <div class="container-fluid  py-5 animate-me in-view"  style="background-color: #26D48C; " >
+            <div class="container "  >
                 <div class="row ">
-                    <div class="col-lg-3 ">
-                        <div class="d-flex counter">
+                    <div class="col-lg-3 "  >
+                        <div class="d-flex counter reveal">
                             <h1 class="me-3 text-primary counter-value">99</h1>
                             <h5 class="text-white mt-1">Success in getting happy customer</h5>
                         </div>
@@ -162,10 +159,10 @@ Note:we help you to grow your Business
                 </div>
             </div>
         </div>
-<div class="container-fluid py-5 my-5 " style="width: 90vw;">
-            <div class="container pt-5">
+<div class="container-fluid py-5 my-5  " style="width: 90vw;">
+            <div class="container pt-5 ">
                 <div class="row g-5" >
-                    <div class="col-lg-5 col-md-6 col-sm-12 ">
+                    <div class="col-lg-5 col-md-6 col-sm-12 animate-me in-view ">
                         <div class="h-100 position-relative">
                             <img src="https://themewagon.github.io/HighTechIT/img/about-1.jpg" class="img-fluid w-75 rounded" alt="" style="margin-bottom: 25%;">
                             <div class="position-absolute w-75" style="top: 25%; left: 25%;">
@@ -173,7 +170,7 @@ Note:we help you to grow your Business
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-7 col-md-6 col-sm-12">
+                    <div class="col-lg-7 col-md-6 col-sm-12 animate-me in-views" >
                         <h5 class="text-primary " style="font-weight:bold;color: #1842B6 !important;font-size: 1.25rem;">About Us</h5>
                         <h1 class="mb-4">About HighTech Agency And It's Innovative IT Solutions</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus. Etiam gravida justo nec erat vestibulum, et malesuada augue laoreet.</p>
@@ -281,12 +278,12 @@ Note:we help you to grow your Business
                 </div>
             </div>
            
-  <div class="container-fluid w-100  " style="padding-left: 2rem; ">
+  <div class="container-fluid w-100 OP " style="padding-left: 2rem;">
     <div class="pcontent text-center  my-5 text-center" style="width: 70vw;margin-left: 12rem;">
-        <h5 style="font-weight: bolder;color: #1842B6;">Our Project</h5>
+        <h5 style="font-weight:700;color: #1842B6;">Our Project</h5>
         <h1 style="font-weight: bolder;">Our Recently Completed Projects </h1>
     </div>
-    <div class="row d-flex m-4  " style="margin-left:2.3rem;padding: 5rem; gap: 5rem;">
+    <div class="row d-flex OC " style="margin-left:4.3rem;padding: 5rem; gap: 5rem;">
         <div class=" pitem1 col-md-6 col-lg-4 d-md-block d-lg-block  " style="width: 23vw;">
             <div class="project-item w-100" >
                             <div class="project-img w-100 ">
@@ -385,15 +382,15 @@ Note:we help you to grow your Business
         </div>
     </div>
   
-   
+  </div>
     <div class="container-fluid blog py-5 mb-5">
-            <div class="container">
-                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px; visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
-                    <h5 class="text-primary">Our Blog</h5>
-                    <h1>Latest Blog &amp; News</h1>
+            <div class="container" >
+                <div class="text-center mx-auto pb-5 " >
+                    <h5 class="" style="color: #1842B6;font-weight: 600;">Our Blog</h5>
+                    <h1 style="font-weight: 600;">Latest Blog & News</h1>
                 </div>
                 <div class="row g-5 justify-content-center">
-                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                    <div class="col-lg-6 col-xl-4 " >
                         <div class="blog-item position-relative bg-light rounded">
                             <img src="https://themewagon.github.io/HighTechIT/img/blog-1.jpg" class="img-fluid w-100 rounded-top" alt="">
                             <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Web Design</span>
@@ -424,12 +421,12 @@ Note:we help you to grow your Business
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
+                    <div class="col-lg-6 col-xl-4 ">
                         <div class="blog-item position-relative bg-light rounded">
                             <img src="https://themewagon.github.io/HighTechIT/img/blog-2.jpg" class="img-fluid w-100 rounded-top" alt="">
                             <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Development</span>
                             <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
-                                <div class="blog-icon btn btn-secondary px-3 rounded-pill my-auto">
+                                <div class="blog-icon btn  px-3 rounded-pill my-auto">
                                     <a href="" class="btn text-white ">Read More</a>
                                 </div>
                                 <div class="blog-icon btn btn-secondary px-3 rounded-pill" style="height: 3rem;" >
@@ -455,12 +452,12 @@ Note:we help you to grow your Business
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeIn;">
+                    <div class="col-lg-6 col-xl-4  " >
                         <div class="blog-item position-relative bg-light rounded">
                             <img src="https://themewagon.github.io/HighTechIT/img/blog-3.jpg" class="img-fluid w-100 rounded-top" alt="">
                             <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Mobile App</span>
                             <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
-                                <div class="blog-icon btn btn-secondary px-3 rounded-pill my-auto">
+                                <div class="blog-icon btn  px-3 rounded-pill my-auto">
                                     <a href="" class="btn text-white ">Read More</a>
                                 </div>
                                 <div class="blog-icon btn btn-secondary px-3 rounded-pill" style="height: 3rem;" >
@@ -489,36 +486,333 @@ Note:we help you to grow your Business
                 </div>
             </div>
         </div>
-        <div class="container-fluid" style="border: 5px solid ;position: relative;">
-            <div class="container">
-                <div class="text-center">
+        <div class="container-fluid" style="position: relative;">
+            <div class="container" >
+                <div class="text-center" >
                     <h5 class="" style="font-weight: bolder;color: #1842B6;">Our Team</h5>
-                    <h1 style="font-weight: bolder;">Meet Our Expert Team</h1>
-
-                </div>
-                    <div class="owl-nav d-flex p-2  " style="border: 2px solid goldenrod;margin-left: 65vw;width: 10rem; justify-content: space-around;position: absolute;margin-top: -4rem;">
-                        <div class="owl-prev p-3 " style="background-color: #26D48C;border-radius: 50%;"><i class="bi bi-arrow-left" style="color: white;"></i>
-                       </div>
-                  <div class="owl-next p-3  " style="background-color: #26D48C;border-radius: 50%;"><i class="bi bi-arrow-right" style="color: white;"></i>
-                     </div>
-                 </div>
-               <div class="container" style="border: 2px solid green;">
-                    <div class="item1 p-3" style="background-color: beige;width: 30rem;">
-                        <div class="image-item p-3" style="background-color: #1842B6;width: 25rem;height: 25rem; border-radius: 50%;">
-                            <div class="otimg" style="width: 23rem;height: 23rem; border-radius: 50%;">
-                                 <img src="https://themewagon.github.io/HighTechIT/img/team-3.jpg" alt="" style="width: 100%;border-radius: 50%;border: 0.5rem solid #26D48C;">
-                            </div>
+                    <h2 style="font-weight: bolder;">Meet Our Expert Team</h2>
+                </div>  
+                <div class="OTCONTENT d-lg-flex p-3 " style="justify-content: center; column-gap: 2rem; ">
+                    <div class="otimg p-3 " style="background-color: #EFEFF1CC;border-radius: 2rem;">
+                        <div class="img " style="border-radius: 50%;width: 22vw;background-color: white;padding: 0.9rem;">
+                           <div class="img-con" style="width: 20vw; border-radius: 50%;">
+                             <img src="https://themewagon.github.io/HighTechIT/img/team-3.jpg" alt="" style="width: 100%;border-radius: 50%;border: 0.5rem solid #26D48C;">
+                           </div>
                         </div>
 
+                        <div class="otcontent text-center">
+                            <h3 style="color: #26D48C;">FULL NAME</h3>
+                            <h6>Desgination</h6>
+                        </div>
+                         <div class="team-icon d-flex justify-content-center pb-4" >
+                                    <a class="btn btn-square  text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square  text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square  text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square  text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>  
 
                     </div>
 
-               </div>
-       
-                
 
+
+                    <div class="otimg p-3" style="background-color: #EFEFF1CC;border-radius: 2rem;">
+                        <div class="img " style="border-radius: 50%;width: 22vw;background-color: white;padding: 0.9rem;">
+                           <div class="img-con" style="width: 20vw; border-radius: 50%;">
+                             <img src="https://themewagon.github.io/HighTechIT/img/team-2.jpg" alt="" style="width: 100%;border-radius: 50%;border: 0.5rem solid #26D48C;">
+                           </div>
+                        </div>
+
+                        <div class="otcontent text-center">
+                            <h3 style="color: #26D48C;">FULL NAME</h3>
+                            <h6>Desgination</h6>
+                        </div>
+                         <div class="team-icon d-flex justify-content-center pb-4" >
+                                    <a class="btn btn-square  text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square  text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square  text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square  text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>  
+
+                    </div>
+
+                    <div class="otimg p-3" style="background-color: #EFEFF1CC;border-radius: 2rem;">
+                        <div class="img " style="border-radius: 50%;width: 22vw;background-color: white;padding: 0.9rem;">
+                           <div class="img-con" style="width: 20vw; border-radius: 50%;">
+                             <img src="https://themewagon.github.io/HighTechIT/img/team-1.jpg" alt="" style="width: 100%;border-radius: 50%;border: 0.5rem solid #26D48C;">
+                           </div>
+                        </div>
+
+                        <div class="otcontent text-center">
+                            <h3 style="color: #26D48C;">FULL NAME</h3>
+                            <h6>Desgination</h6>
+                        </div>
+                         <div class="team-icon d-flex justify-content-center pb-4" >
+                                    <a class="btn btn-square  text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square  text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square  text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square  text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>  
+
+                    </div>
+
+
+                </div>
+
+        </div>
+
+        </div>
+        <!-- OUR TESTIMONIAL -->
+         <div class="container-fluid  py-5 mb-5" >
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px; visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                    <h5 class="" style="color: #1842B6;font-weight: 600;">Our Testimonial</h5>
+                    <h2 style="font-weight: 600;">Our Client Saying!</h2>
+                </div>
+                
+                 
+
+ <div class="carousel-wrapper">
+  <button class="nav-btn prev-btn">&#10094;</button>
+  <button class="nav-btn next-btn">&#10095;</button>
+
+  <div class="carousel-container">
+    <div class="slides" id="slides">
+      <!-- Slide 1 -->
+      <div class="slide">
+        <div class="content1">
+          <div class="item1">
+            <div class="img1">
+              <img src="https://themewagon.github.io/HighTechIT/img/testimonial-3.jpg" alt="">
+            </div>
+            <div class="content">
+              <h2 style="color: #26D48C;font-weight: 600;">Client Name</h2>
+              <h5>Profession</h5>
+              <i class="fas fa-star text-primary"></i>
+              <i class="fas fa-star text-primary"></i>
+              <i class="fas fa-star text-primary"></i>
+              <i class="fas fa-star text-primary"></i>
+              <i class="fas fa-star text-primary"></i>
+            </div>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laborum amet consectetur quidem, ea iure nobis magni molestiae provident</p>
+        </div>
+      </div>
+      <!-- Slide 2 -->
+      <div class="slide">
+        <div class="content1">
+          <div class="item1">
+            <div class="img1">
+              <img src="https://themewagon.github.io/HighTechIT/img/testimonial-2.jpg" alt="">
+            </div>
+            <div class="content">
+              <h2 style="color: #26D48C;font-weight: 600;">Client Name</h2>
+              <h5>Profession</h5>
+              <i class="fas fa-star text-primary"></i>
+              <i class="fas fa-star text-primary"></i>
+              <i class="fas fa-star text-primary"></i>
+              <i class="fas fa-star text-primary"></i>
+              <i class="fas fa-star text-primary"></i>
+            </div>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laborum amet consectetur quidem, ea iure nobis magni molestiae provident</p>
+        </div>
+      </div>
+      <!-- Slide 3 -->
+      <div class="slide">
+        <div class="content1">
+          <div class="item1">
+            <div class="img1">
+              <img src="https://themewagon.github.io/HighTechIT/img/testimonial-1.jpg" alt="">
+            </div>
+            <div class="content">
+              <h2 style="color: #26D48C;font-weight: 600;">Client Name</h2>
+              <h5 colo>Profession</h5>
+              <i class="fas fa-star text-primary"></i>
+              <i class="fas fa-star text-primary"></i>
+              <i class="fas fa-star text-primary"></i>
+              <i class="fas fa-star text-primary"></i>
+              <i class="fas fa-star text-primary"></i>
+            </div>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laborum amet consectetur quidem, ea iure nobis magni molestiae provident</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const slides = document.getElementById("slides");
+  const prevBtn = document.querySelector(".prev-btn");
+  const nextBtn = document.querySelector(".next-btn");
+
+  let slideIndex = 0;
+  const totalSlides = slides.children.length;
+
+  function moveSlide(direction = 1) {
+    slideIndex = (slideIndex + direction + totalSlides) % totalSlides;
+
+    // Shift order by rearranging children
+    if (direction === 1) {
+      const first = slides.firstElementChild;
+      slides.appendChild(first);
+    } else {
+      const last = slides.lastElementChild;
+      slides.prepend(last);
+    }
+
+    // Reset transform to 0 (no visual jump)
+    slides.style.transition = "none";
+    slides.style.transform = "translateX(-33.33%)";
+
+    // Animate back to normal (looks like sliding)
+    setTimeout(() => {
+      slides.style.transition = "transform 0.5s ease";
+      slides.style.transform = "translateX(0)";
+    }, 20);
+  }
+
+  nextBtn.addEventListener("click", () => moveSlide(1));
+  prevBtn.addEventListener("click", () => moveSlide(-1));
+
+  // Auto-slide every 4s
+  setInterval(() => moveSlide(1), 4000);
+</script>
+
+                
             </div>
         </div>
 
+
+   
+   <div class="container-fluid py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow "  style="max-width: 600px; ">
+                   <h5 style="color: #1842B6; font-weight: 600; font-size: 1.3rem;">Get In Touch</h5>
+                   <h1 style="font-weight: 600;color: black;font-size: 2rem;">Contact For any Query</h1>
+                    <p class="mb-2">The contact form is currently inactive. Get a functional and working contact form with Ajax &amp; PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="">Download Now</a>.</p>
+                </div>
+                <div class="contact-detail position-relative p-5" style="background-color: #1862b69a;">
+                    <div class="row g-5 mb-5 justify-content-center" >
+                        <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                            <div class="d-flex bg-light p-3 rounded">
+                                <div class="flex-shrink-0 btn-square  rounded-circle text-center" style="width: 64px; height: 64px; background-color: #26D48C;">
+                                    <i class="fas fa-map-marker-alt text-white" style="font-size: 1.5rem;margin-top: 1rem;" ></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h4 class="text-primary">Address</h4>
+                                    <a href="https://goo.gl/maps/Zd4BCynmTb98ivUJ6" target="_blank" class="h5" style="text-decoration: none;">23 rank Str, NY</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".5s" style="">
+                            <div class="d-flex bg-light p-3 rounded">
+                                <div class="flex-shrink-0 btn-square text-center rounded-circle" style="width: 64px; height: 64px;background-color: #26D48C;">
+                                    <i class="fa fa-phone text-white " style="margin-top: 1rem;font-size: 1.5rem;"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h4 class="text-primary">Call Us</h4>
+                                    <a class="h5" href="tel:+0123456789" target="_blank" style="text-decoration: none;">+012 3456 7890</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeIn;">
+                            <div class="d-flex bg-light p-3 rounded">
+                                <div class="flex-shrink-0 btn-square text-center rounded-circle" style="width: 64px; height: 64px;background-color: #26D48C;">
+                                    <i class="fa fa-envelope text-white" style="margin-top: 1rem;font-size: 1.5rem;"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h4 class="text-primary">Email Us</h4>
+                                    <a class="h5" href="mailto:info@example.com" target="_blank" style="text-decoration: none;">info@example.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-5 map" style="column-gap:4rem;">
+                        <div class="col-lg-6 Map" style="background-color: #26D48C;border-radius: 2rem;width: 35rem;margin-left: 2rem;">
+                            <div class="p-5 h-100 rounded contact-map">
+                                <iframe class="rounded w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.4710403339755!2d-73.82241512404069!3d40.685622471397615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c26749046ee14f%3A0xea672968476d962c!2s123rd%20St%2C%20Queens%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1686493221834!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 form"  style="background-color: #26D48C;border-radius: 2rem;width: 35rem;">
+                            <div class="p-5 rounded contact-form">
+                                <div class="mb-4">
+                                    <input type="text" class="form-control border-0 py-3" placeholder="Your Name">
+                                </div>
+                                <div class="mb-4">
+                                    <input type="email" class="form-control border-0 py-3" placeholder="Your Email">
+                                </div>
+                                <div class="mb-4">
+                                    <input type="text" class="form-control border-0 py-3" placeholder="Project">
+                                </div>
+                                <div class="mb-4">
+                                    <textarea class="w-100 form-control border-0 py-3" rows="6" cols="10" placeholder="Message"></textarea>
+                                </div>
+                                <div class="text-start">
+                                    <button class="btn bg-primary text-white py-3 px-5" type="button">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+     <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+            <div class="container pt-5 pb-4">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <a href="home.html" style="text-decoration: none;">
+                            <h1 class="text-white fw-bold d-block">High<span class="" style="color: #26D48C;">Tech</span> </h1>
+                        </a>
+                        <p class="mt-4 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere delectus qui placeat inventore consectetur repellendus optio debitis.</p>
+                        <div class="d-flex hightech-link">
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2" style="text-decoration: none;"><i class="fab fa-facebook-f text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2" style="text-decoration: none;"><i class="fab fa-twitter text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2" style="text-decoration: none;"><i class="fab fa-instagram text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-0" style="text-decoration: none;"><i class="fab fa-linkedin-in text-primary"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3" style="color: #26D48C;text-decoration: none;">Short Link</a>
+                        <div class="mt-4 d-flex flex-column short-link">
+                            <a href="" class="mb-2 text-white" style="text-decoration: none;"><i class="fas fa-angle-right  me-2" style="color: #26D48C;"></i>About us</a>
+                            <a href="" class="mb-2 text-white" style="text-decoration: none;"><i class="fas fa-angle-right  me-2" style="color: #26D48C;"></i>Contact us</a>
+                            <a href="" class="mb-2 text-white" style="text-decoration: none;"><i class="fas fa-angle-right  me-2" style="color: #26D48C;"></i>Our Services</a>
+                            <a href="" class="mb-2 text-white" style="text-decoration: none;"><i class="fas fa-angle-right  me-2" style="color: #26D48C;"></i>Our Projects</a>
+                            <a href="" class="mb-2 text-white" style="text-decoration: none;"><i class="fas fa-angle-right  me-2" style="color: #26D48C;"></i>Latest Blog</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3" style="color:#26D48C;text-decoration: none;">Help Link</a>
+                        <div class="mt-4 d-flex flex-column help-link">
+                            <a href="" class="mb-2 text-white" style="text-decoration: none;"><i class="fas fa-angle-right  me-2" style="color: #26D48C;"></i>Terms Of use</a>
+                            <a href="" class="mb-2 text-white" style="text-decoration: none;"><i class="fas fa-angle-right  me-2" style="color: #26D48C;"></i>Privacy Policy</a>
+                            <a href="" class="mb-2 text-white" style="text-decoration: none;"><i class="fas fa-angle-right  me-2" style="color: #26D48C;"></i>Helps</a>
+                            <a href="" class="mb-2 text-white" style="text-decoration: none;"><i class="fas fa-angle-right  me-2" style="color: #26D48C;"></i>FQAs</a>
+                            <a href="" class="mb-2 text-white" style="text-decoration: none;"><i class="fas fa-angle-right  me-2" style="color: #26D48C;"></i>Contact</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 " style="color: #26D48C;text-decoration: none;">Contact Us</a>
+                        <div class="text-white mt-4 d-flex flex-column contact-link">
+                            <a href="#" class="pb-3 text-light border-bottom border-primary" style="text-decoration: none;"><i class="fas fa-map-marker-alt  me-2" style="color: #26D48C; "></i> 123 Street, New York, USA</a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary" style="text-decoration: none;"><i class="fas fa-phone-alt  me-2" style="color: #26D48C;"></i> +123 456 7890</a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary" style="text-decoration: none;"><i class="fas fa-envelope  me-2" style="color: #26D48C;"></i> info@exmple.con</a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="text-light mt-5 mb-4">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start">
+                        <span class="text-light"><a href="#" class=""  style="color: #26D48C;text-decoration: none;"><i class="fas fa-copyright me-2"  style="color: #26D48C;"></i>Your Site Name</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <span class="text-light">Designed By<a href="https://htmlcodex.com" class="" style="color: #26D48C;text-decoration: none;">HTML Codex</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>   
 </body>
 </html>
