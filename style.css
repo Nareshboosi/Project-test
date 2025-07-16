@@ -588,12 +588,7 @@ width: 500px;
     color: white;
     
 }
-.blog-icon-1:hover{
-    display: none;
-}
-.blog-icon-2:hover{
-    display: block;
-}
+
 .bib{
     color:#26D48c !important;
 
@@ -909,6 +904,8 @@ body {
     width: 18vw !important;
     text-align: center;
   }
+ 
+
 }
 @media (min-width:768px) and (max-width:1440px){
 
